@@ -28,7 +28,7 @@ The code may not be perfect as I'm not a real pro in javascript and don't know a
 
 Do whatever you want with it. For example it's possible to build a web interface to control i3 (as soon as I switched to the [tree branch](http://code.stapelberg.de/git/i3?h=tree), I may improve node-i3 due to the improved ipc of i3 itself).
 
-I created a small web interface using [Socket.IO](https://github.com/LearnBoost/Socket.IO) (and [Socket.IO-node](https://github.com/LearnBoost/Socket.IO-node) to switch workspaces using my smartphone: [i3 web control poc](http://tmp.fnordig.de/node-i3-web-control-poc.png).
+I created a small web interface using [Socket.IO](https://github.com/LearnBoost/Socket.IO) (and [Socket.IO-node](https://github.com/LearnBoost/Socket.IO-node)) to switch workspaces using my smartphone: [i3 web control poc](http://tmp.fnordig.de/node-i3-web-control-poc.png).
 
 The script is included in the examples dir.
 
