@@ -1,7 +1,7 @@
 var i3 = require('../lib/node-i3');
-var c = i3.connect('/home/badboy/.i3/ipc.sock');
 
 if(process.argv[2]) {
+  var c = i3.connect('/home/badboy/.i3/ipc.sock');
   // The client queues up any message, so just fire them off.
   c.command(process.argv[2]);
 
