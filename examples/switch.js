@@ -6,7 +6,7 @@ c.on('connect', function() {
 });
 
 // The client queues up any message, so just fire them off.
-c.message('3'); // switch to workspace 3
+c.command('3'); // switch to workspace 3
 
 c.on('data', function(data) {
   console.log(data);
