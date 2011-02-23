@@ -1,0 +1,19 @@
+{
+  "name": "node-i3",
+  "author": "Jan-Erik Rediger <janerik@fnordig.de>",
+  "version": "0.0.1",
+  "repository": { 
+    "type": "git",
+    "url": "https://badboy@github.com/badboy/node-i3.git"
+  },
+  "description": "inter-process communication with i3, the improved tiling window manager",
+  "keywords": ["ipc", "i3", "wm"],
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib/node-i3",
+  "bin": "i3-msg.js",
+  "engines": {
+    "node": "0.3.8"
+  }
+}
