@@ -9,4 +9,6 @@ if(process.argv[2]) {
     console.log(data.data);
     c.end();
   });
+} else {
+  console.log("need arg");
 }

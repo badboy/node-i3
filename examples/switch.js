@@ -10,4 +10,5 @@ c.command('3'); // switch to workspace 3
 
 c.on('data', function(data) {
   console.log(data);
+  c.end();
 });
