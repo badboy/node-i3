@@ -1,4 +1,4 @@
-var i3 = require('../lib/node-i3');
+var i3 = require('node-i3');
 
 if(process.argv[2]) {
   var c = i3.connect('/home/badboy/.i3/ipc.sock');
