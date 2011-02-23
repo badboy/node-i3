@@ -1,0 +1,5 @@
+= 0.0.1 / 23.02.2011
+  * New features:
+    * versionized!
+    * first working and packaged release
+    * i3-msg.js is now the main script
