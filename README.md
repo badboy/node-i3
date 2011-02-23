@@ -38,9 +38,11 @@ All you need is [node.js][]. node-i3 is tested on v0.3.6.
 
 # Installation
 
-node-i3 is not yet packaged properly, but will be available via [npm][] sometime.
+node-i3 is finally packaged and available via [npm][]
 
-For now just clone this repo:
+    npm install node-i3
+
+But you can clone the repo and start using the code this way:
 
     git clone https://github.com/badboy/node-i3.git
 
