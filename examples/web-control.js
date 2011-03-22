@@ -34,7 +34,7 @@ c.on('event', function(data) {
 });
 
 c.on('data', function(data) {
-  console.log((+new Date), "type:", data.type);
+  console.log((+new Date), "type", data.type);
 
   sendSocket(data);
 });
